@@ -113,8 +113,6 @@ fpr, tpr, thresholds = roc_curve(y_test_out, probs)
 plot_roc_curve(fpr, tpr)
 
 
-
-
 # Maquinas de Soporte Vectorial
 
 svc = SVC(gamma= 'auto')
